@@ -42,10 +42,6 @@ button{
   display: none;
 
 }
-input[type="checkbox"]{
-
-
-}
 ul{
   list-style: none;
 }
@@ -66,4 +62,17 @@ li{
   padding: 0px 3px 0px 3px;
   color: #fff;
   cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .main{
+    margin: auto;
+    width: 90%;
+  }
+  input[type="text"]{
+    width: 80%;
+  }
+  button{
+    width: 10%;
+  }
 }
