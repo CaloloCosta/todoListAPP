@@ -3,4 +3,4 @@ Vanilla JavaScript to-do list app.
 A very simple to-do list app dveloped using: HTML, CSS, and last but not least JavaScript.
 This app was develooped in order to cement my knowledge of DOM manipulaiton.
 
-Try out the app <a href="https://calolocosta.github.io/todoListAPP/">here</a>.
+Check it out <a href="https://calolocosta.github.io/todoListAPP/">here</a>.
