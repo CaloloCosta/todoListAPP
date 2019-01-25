@@ -67,7 +67,7 @@ li{
 @media (max-width: 500px) {
   .main{
     margin: auto;
-    width: 90%;
+    width: 100%;
   }
   input[type="text"]{
     width: 80%;
