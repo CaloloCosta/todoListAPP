@@ -1,13 +1,18 @@
 html{
+  height: 100%;
   background-image: linear-gradient(#ff6161,#ff768c);
   background-repeat: no-repeat;
-  height: 100%;
   font-family: sans-serif;
   color: #0f222d;
+  background-size: auto;
 }
+
 .main{
-  margin: auto;
   width: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
 }
 h1{
   text-align: center;
@@ -23,6 +28,8 @@ input[type="text"]{
   outline: 0;
   border: none;
   font-size: 1.5em;
+  background: #fff;
+  color: #2f4f4f;
 }
 button{
   font-size: 1.5em;
@@ -49,9 +56,11 @@ li{
   border-bottom: 1px solid #53BDFF;
   padding-bottom: 15px;
   padding-top: 15px;
+  font-size: 1.3em;
   color: #2f4f4f;
 }
-#clear{
+a{
+  float: right;
   text-align: right;
   color: #ff6161;
   font-size: 1.2em;
