@@ -11,7 +11,8 @@ function submit(e){
   e.preventDefault();
   let taskList;
   let input = document.querySelector('input');
-  addTask(input.value);
+  if(input.value != '')
+    addTask(input.value);
   input.value = '';
 }
 
