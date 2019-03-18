@@ -41,12 +41,9 @@ function deleteOrTick(e){
 
 // delete task
 function deleteTask(e){
-  if(e.target.className = 'delete'){
-    let remove = e.target.parentNode;
-    let text = e.target.parentNode.lastChild.textContent;
-    let parentNode = remove.parentNode;
-    parentNode.removeChild(remove);
-  }
+  let remove = e.target.parentNode;
+  let parentNode = remove.parentNode;
+  parentNode.removeChild(remove);
 }
 
 // tick a task
