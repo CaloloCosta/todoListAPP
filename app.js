@@ -3,7 +3,7 @@ loadEvents();
 function loadEvents(){
   document.querySelector('form').addEventListener('submit',submit);
   document.getElementById('clear').addEventListener('click',clearList);
-  document.querySelector('ul').addEventListener('click',deleteTick);
+  document.querySelector('ul').addEventListener('click',deleteOrTick);
 
 }
 // subit data function
@@ -31,7 +31,7 @@ function clearList(e){
 }
 
 // deleteTick
-function deleteTick(e){
+function deleteOrTick(e){
   if(e.target.className == 'delete')
     deleteTask(e);
   else {
